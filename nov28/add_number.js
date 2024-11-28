@@ -5,10 +5,15 @@
 
 function add() {
     let sum = 0;
-    for (let i = 0; i < arguments.length; i++) {
+    for (let i = 0; i < arguments.length; i++) { // arguments is an array like object
         sum += arguments[i];
     }
     return sum;
+    
 }
 
 console.log(add(1, 2, 3, 4, 5)); // 15
+console.log(add(2,3));
+console.log(add(5));
+console.log(add());
+// console.log(arguments); 
