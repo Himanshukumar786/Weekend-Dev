@@ -10,6 +10,7 @@
  * array -> list of numbers that we will get
  * fn -> is a function passed as an argument to the processArray function
  */
+
 function processArray(array, fn) {
     
     for(let i = 0; i < array.length; i++) { // iterating over every index of the array
